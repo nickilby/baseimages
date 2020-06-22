@@ -1,0 +1,44 @@
+builder_type: vmware-iso
+iso_url:
+iso_checksum:
+ssh_username:
+ssh_password:
+shutdown_command:
+disk_adapter_type:
+vmdk_name:
+disk_size:
+disk_type_id: thin
+guest_os_type:
+vm_version: 9
+vm_name:  "{{ }}"
+remote_type: "esx5"
+floppy_files: 
+boot_command:
+remote_datastore:
+remote_host:
+remote_port:
+remote_username:
+remote_password:
+skip_validate_credentials:
+# Hardware 
+cpus: 2
+memory: 4096
+cores: 1
+network: hq-lan
+network_adapter_type:
+# Output 
+output_directory:
+# Run Configuration 
+headless:
+vnc_bind_address:
+vnc_port_min:
+vnc_port_max:
+vnc_disable_password: true
+tools_upload_flavor:
+# VMX Configuration 
+
+# Export Configuration 
+format:
+
+# Communication 
+communicator: 
